@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="701.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Register">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="1.0" prefHeight="699.0" prefWidth="706.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="699.0" layoutX="-2.0" stroke="BLACK" strokeType="INSIDE" width="712.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.34951456310679613" startY="0.39805825242718446">
+                     <stops>
+                        <Stop color="#094a90ed" />
+                        <Stop color="#cd3f3f" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill></Rectangle>
+            <Text layoutX="144.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign-Up" textAlignment="CENTER" wrappingWidth="417.3125">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Text>
+            <Text layoutX="135.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="user" layoutX="119.0" layoutY="273.0" prefHeight="41.0" prefWidth="394.0" style="-fx-border-radius: 500;" />
+            <Text layoutX="138.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="pass" layoutX="119.0" layoutY="380.0" prefHeight="41.0" prefWidth="394.0" />
+            <Button fx:id="register" layoutX="330.0" layoutY="478.0" mnemonicParsing="false" onAction="#register" prefHeight="41.0" prefWidth="98.0" text="inscrire">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button layoutX="162.0" layoutY="479.0" mnemonicParsing="false" text="Cancel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

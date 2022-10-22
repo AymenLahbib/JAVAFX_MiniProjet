@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="746.0" prefWidth="947.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Modifybook">
+   <children>
+      <Text fill="#5322c6" layoutX="352.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update book">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="131.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id  book">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="131.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <Text layoutX="131.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TextField fx:id="idbook" layoutX="595.0" layoutY="173.0" />
+      <TextField fx:id="title" layoutX="595.0" layoutY="272.0" />
+      <TextField fx:id="author" layoutX="595.0" layoutY="358.0" />
+      <Button layoutX="441.0" layoutY="544.0" mnemonicParsing="false" onAction="#log_out" text="Log out" />
+      <Button fx:id="modifier" layoutX="677.0" layoutY="544.0" mnemonicParsing="false" onAction="#Modify" text="Modify" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="769.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Login">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000412ba" height="79.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="1044.0" />
+      <Text layoutX="519.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <TextField fx:id="username" layoutX="516.0" layoutY="298.0" prefHeight="42.0" prefWidth="363.0" />
+      <Text layoutX="519.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <TextField fx:id="password" layoutX="516.0" layoutY="426.0" prefHeight="42.0" prefWidth="363.0" />
+      <Button fx:id="register" layoutX="890.0" layoutY="5.0" mnemonicParsing="false" onAction="#Register" prefHeight="70.0" prefWidth="134.0" style="-fx-background-color: none; -fx-font-style: Bold;" text="Register">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#ffffffe0" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button fx:id="login" layoutX="781.0" layoutY="520.0" mnemonicParsing="false" onAction="#Login" prefHeight="51.0" prefWidth="134.0" text="Login">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Text fill="#f7f7f7b1" layoutX="47.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="L'espoir" wrappingWidth="178.734375">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="608.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" textAlignment="CENTER" wrappingWidth="247.6708984375">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Button layoutX="557.0" layoutY="520.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000412ad" height="693.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="382.0" />
+      
+   </children>
+</AnchorPane>

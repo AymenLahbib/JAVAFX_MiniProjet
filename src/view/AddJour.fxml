@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="692.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddJour">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#798086" height="84.0" stroke="BLACK" strokeType="INSIDE" width="244.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dee1e4" height="616.0" layoutX="-3.0" layoutY="84.0" stroke="BLACK" strokeType="INSIDE" width="244.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000c4" height="84.0" layoutX="-7.0" stroke="BLACK" strokeType="INSIDE" width="706.0" />
+      <Text layoutX="317.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Newspaper">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="294.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <TextField fx:id="title" layoutX="294.0" layoutY="312.0" prefHeight="31.0" prefWidth="342.0" />
+      <Text layoutX="294.0" layoutY="405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date de parution">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Date" layoutX="294.0" layoutY="422.0" prefHeight="31.0" prefWidth="342.0" />
+      <Button fx:id="log" layoutX="518.0" layoutY="14.0" mnemonicParsing="false" onAction="#log_out" style="-fx-background-color: none;" text="Sign-Out" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font></Button>
+      <Button fx:id="add" layoutX="508.0" layoutY="481.0" mnemonicParsing="false" onAction="#Add" text="inserer">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Text fill="#e8e8e8" layoutX="59.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" wrappingWidth="120.587890625">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="13.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" wrappingWidth="218.310546875">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Button layoutX="-17.0" layoutY="481.0" mnemonicParsing="false" onAction="#Users" prefHeight="69.0" prefWidth="191.0" style="-fx-background-color: none;" text="Users">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="13.0" layoutY="378.0" mnemonicParsing="false" onAction="#newspaper" style="-fx-background-color: none;" text="newspaper" textFill="#2ca8bb">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button layoutX="11.0" layoutY="294.0" mnemonicParsing="false" onAction="#dictionnary" style="-fx-background-color: none;" text="dictionnary">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button layoutX="-7.0" layoutY="194.0" mnemonicParsing="false" onAction="#Book" prefHeight="69.0" prefWidth="171.0" style="-fx-background-color: none;" text="Book">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Line endX="100.0" layoutX="358.0" layoutY="209.0" opacity="0.62" startX="-100.0" />
+      <Line endX="100.0" layoutX="560.0" layoutY="210.0" opacity="0.64" startX="-100.0" />
+      <Button layoutX="346.0" layoutY="481.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

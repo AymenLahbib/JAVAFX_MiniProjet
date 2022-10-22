@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="837.0" prefWidth="1122.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DicController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#798086" height="81.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000c4" height="88.0" layoutX="-3.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="1129.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dee1e4" height="756.0" layoutX="-4.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" width="304.0" />
+      <Button layoutX="41.0" layoutY="478.0" mnemonicParsing="false" onAction="#newspaper" style="-fx-background-color: none;" text="newspaper">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Text fill="#e8e8e8" layoutX="97.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="12.0" layoutY="240.0" mnemonicParsing="false" onAction="#Book" prefHeight="69.0" prefWidth="171.0" style="-fx-background-color: none;" text="Book">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Button layoutX="39.0" layoutY="362.0" mnemonicParsing="false" onAction="#dictionnary" style="-fx-background-color: none;" text="dictionnary" textFill="#2ca8bb">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Text layoutX="44.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" wrappingWidth="218.310546875">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <Button layoutX="2.0" layoutY="593.0" mnemonicParsing="false" onAction="#Users" prefHeight="69.0" prefWidth="191.0" style="-fx-background-color: none;" text="Users">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table" layoutX="300.0" layoutY="348.0" prefHeight="489.0" prefWidth="822.0">
+        <columns>
+          <TableColumn fx:id="idDic" prefWidth="280.0" text="id" />
+          <TableColumn fx:id="author" prefWidth="290.0" text="author" />
+            <TableColumn fx:id="title" prefWidth="294.0" text="title" />
+        </columns>
+      </TableView>
+      <Button fx:id="add" layoutX="1046.0" layoutY="278.0" mnemonicParsing="false" onAction="#Add" prefHeight="44.0" prefWidth="62.0" style="-fx-background-color: #00888B;" text="add" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="deleteId" layoutX="874.0" layoutY="281.0" mnemonicParsing="false" onAction="#Delete" prefHeight="44.0" prefWidth="76.0" style="-fx-background-color: #A7252E;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Text layoutX="559.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dictionnary list">
+         <font>
+            <Font size="49.0" />
+         </font>
+      </Text>
+      <Button layoutX="969.0" layoutY="21.0" mnemonicParsing="false" onAction="#Logout" style="-fx-background-color: none;" text="Sign-Out" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <Line endX="100.0" layoutX="518.0" layoutY="257.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="720.0" layoutY="257.0" startX="-100.0" />
+      <Line endX="100.0" layoutX="918.0" layoutY="257.0" startX="-100.0" />
+      <TextField fx:id="recherche" layoutX="322.0" layoutY="34.0" prefHeight="31.0" prefWidth="226.0" />
+      <Button layoutX="556.0" layoutY="34.0" mnemonicParsing="false" onAction="#search" text="Search" />
+      <Button layoutX="1016.0" layoutY="105.0" mnemonicParsing="false" onAction="#view" style="-fx-background-color: #318CE7;" text="View" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
